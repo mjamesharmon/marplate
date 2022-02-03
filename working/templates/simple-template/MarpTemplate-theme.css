@@ -1,0 +1,22 @@
+/* @theme MarpTemplate-theme */
+
+@import 'default';
+
+:root {
+        --primary-color: #1B9CDF;
+        --secondary_color: #CCCCCC;
+        --tertiary-color: #FFBD3E; 
+}
+ 
+h1{
+        color:var(--primary-color);
+}
+
+h3 { 
+        color:var(--secondary_color)
+}
+ 
+h4{
+        color:var(--tertiary-color)
+}
+

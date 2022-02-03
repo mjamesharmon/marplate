@@ -1,0 +1,14 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "M. James Harmon",
+  "classifications": [ "Presentation", "Template" ],
+  "identity": "Marp.SimpleTemplate",
+  "name": "Marp Simple Template",
+  "shortName": "marp.simple",
+  "tags": {
+    "language": "markdown",
+    "type": "item"
+  },
+  "sourceName": "MarpTemplate",
+  "preferNameDirectory":true
+}
