@@ -4,7 +4,7 @@
   "classifications": [ "Presentation", "Template" ],
   "identity": "Marp.MinimalTemplate",
   "name": "Marp Minimal Template",
-  "shortName": "marp.minimal"
+  "shortName": "marp.minimal",
   "tags": {
     "language": "markdown",
     "type": "item"
