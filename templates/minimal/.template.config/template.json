@@ -2,9 +2,9 @@
   "$schema": "http://json.schemastore.org/template",
   "author": "M. James Harmon",
   "classifications": [ "Presentation", "Template" ],
-  "identity": "Marp.SimpleTemplate",
-  "name": "Marp Simple Template",
-  "shortName": "marp.simple",
+  "identity": "Marp.MinimalTemplate",
+  "name": "Marp Minimal Template",
+  "shortName": "marp.minimal"
   "tags": {
     "language": "markdown",
     "type": "item"
