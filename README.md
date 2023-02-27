@@ -6,6 +6,7 @@ Marplate is the answer for any developer that has been tasked with making a pres
 ## Requirements
 - .Net 6 or better
 - VS Code or editor of your choice
+- Marp extension for VS Code
 
 ## Installing with the .Net Core Template Engine
 To install the template for use with the template engine, clone the repository and execute the following commands:
