@@ -1,0 +1,13 @@
+{
+	"Title Slide" : {
+		"prefix" : "title",
+		"scope": "markdown",
+		"body": [
+			"---",
+			"# Title goes here",
+			"![bg right:60%](img/01.jpg)"
+		],
+		"description": "Simple title slide"
+	}
+	
+}

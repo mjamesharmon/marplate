@@ -1,5 +1,12 @@
 {
     "markdown.marp.themes": [
         "MarpTemplate-theme.css"
-    ]
+    ],
+    "[markdown]": {
+        "editor.quickSuggestions": {
+          "other": true,
+          "comments": true,
+          "strings": true
+        }
+    }
 }
