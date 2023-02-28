@@ -14,12 +14,12 @@
   "symbols":{
     "primaryColor": {
       "type": "parameter",
-      "defaultValue": "#1B9CDF;",
+      "defaultValue": "#1B9CDF",
       "replaces":"PColor"
     },
     "secondaryColor": {
       "type": "parameter",
-      "defaultValue": "#CCCCCC;",
+      "defaultValue": "#CCCCCC",
       "replaces":"SColor"
     },
     "tertiaryColor": {

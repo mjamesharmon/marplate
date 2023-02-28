@@ -3,8 +3,8 @@
 @import 'default';
 
 :root {
-        --primary-color: PColor
-        --secondary_color: SColor
+        --primary-color: PColor;
+        --secondary_color: SColor;
         --tertiary-color: TColor; 
 }
  
