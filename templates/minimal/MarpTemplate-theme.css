@@ -3,9 +3,9 @@
 @import 'default';
 
 :root {
-        --primary-color: #1B9CDF;
-        --secondary_color: #CCCCCC;
-        --tertiary-color: #FFBD3E; 
+        --primary-color: PColor
+        --secondary_color: SColor
+        --tertiary-color: TColor; 
 }
  
 h1{

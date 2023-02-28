@@ -8,6 +8,29 @@
 			"![bg right:60%](img/01.jpg)"
 		],
 		"description": "Simple title slide"
+	},
+	"Basic Slide" : {
+		"prefix" : "slide",
+		"scope": "markdown",
+		"body": [
+			"---",
+			"# Slide Heading",
+			"Some text here",
+			"![bg right:50% 50%](img/01.jpg)"
+		],
+		"description": "Basic slide with heading, text and 50/50 image"
+	},
+	"Code Slide" : {
+		"prefix" : "code",
+		"scope": "markdown",
+		"body": [
+			"---",
+			"### HEADING",
+			"*Description*",
+			"```",
+			"System.CodeHere();",
+			"```"
+		],
+		"description": "Code example with heading and description"
 	}
-	
 }

@@ -10,5 +10,22 @@
     "type": "item"
   },
   "sourceName": "MarpTemplate",
-  "preferNameDirectory":true
+  "preferNameDirectory":true,
+  "symbols":{
+    "primaryColor": {
+      "type": "parameter",
+      "defaultValue": "#1B9CDF;",
+      "replaces":"PColor"
+    },
+    "secondaryColor": {
+      "type": "parameter",
+      "defaultValue": "#CCCCCC;",
+      "replaces":"SColor"
+    },
+    "tertiaryColor": {
+      "type": "parameter",
+      "defaultValue": "#FFBD3E",
+      "replaces":"TColor"
+    }
+
 }
