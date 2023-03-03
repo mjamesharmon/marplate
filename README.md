@@ -30,13 +30,6 @@ Open VS Code and enjoy a life free of PowerPoint :)
 The primary, secondary and tertiary colors can be configured from the command line:
 
 ```console
-Template options:
-  -p, --primaryColor <primaryColor>      Type: string
-                                         Default: #1B9CDF
-  -s, --secondaryColor <secondaryColor>  Type: string
-                                         Default: #CCCCCC
-  -te, --tertiaryColor <tertiaryColor>   Type: string
-                                         Default: #FFBD3E
+   dotnet new marplate --name mypresentation -p #000000 -s #555555 -te #CCCCCC
 ```
-
 
