@@ -15,7 +15,7 @@ To install the template for use with the template engine, clone the repository a
 ```console
   cd marplate/src
   dotnet pack -c Release
-  dotnet new install bin/Debug/Marplate.1.0.0.nupkg
+  dotnet new install bin/Release/Marplate.1.0.0.nupkg
 ```
 
 ## Creating a New Presentation
@@ -27,7 +27,7 @@ To create a new presentation execute:
 Open VS Code and enjoy a life free of PowerPoint :)
 
 ## Configuring Theme from the Command Line
-THe primary, secondary and tertiary colors can be configured from the command line:
+The primary, secondary and tertiary colors can be configured from the command line:
 
 ```console
 Template options:
@@ -38,3 +38,5 @@ Template options:
   -te, --tertiaryColor <tertiaryColor>   Type: string
                                          Default: #FFBD3E
 ```
+
+
