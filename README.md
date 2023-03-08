@@ -32,18 +32,19 @@ The primary, secondary and tertiary colors can be configured from the command li
 ```console
    dotnet new marplate --name mypresentation -p #000000 -s #555555 -te #CCCCCC
 ```
-## Usage Example: Slide with Code Example
-This example demonstrates how to insert a slide containing a heading, description and code example:
+## Usage Example: Basic Slide
+This example demonstrates how to insert a two column slide containing a heading, supporting text and an image.
 
-```console
+ ```console
    ---
-   ### PURRfet Code
-   *This code demonstrates printing a kitty*
-   ```csharp
-   Console.Out.WriteLine("=^.^=");
-   ```
-```
-This slide template is accessible in VS Code by typing `code` in the editor and selecting `Code Slide` 
+   # My heading
+   Some text here
+   and here
+   and here
+   ![bg right:50% 50%](img/01.jpg)
+ ```
+ 
+This slide template is accessible in VS Code by typing `slide` in the editor and selecting `Basic Slide` 
 
 ## Creating PDF, PowerPoint or HTML Slide Decks from VS Code
 The Marp extension in VS Code allows you to export Marplate slides as PDF, Powerpoint or HTML slide decks.
