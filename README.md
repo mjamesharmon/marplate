@@ -1,7 +1,7 @@
 # Marplate
 *A Minimalist Slide/Presentation Template*/
 
-Marplate is for developers (or anyone else) who dislike using tools like PowerPoint for presentations and just want to stick with the tools they already know and love.  It's a markdown-based slide template optimized for use with VS Code (or the editor of your choice… hullo VI). Built on the [Marp Presentation Ecosystem](https://marp.app/) and the [.NET Core Template Engine](https://github.com/dotnet/templating/), Marplate is a minimalist solution that simplifies formatting and layout, so you can focus on creating beautiful presentations.
+Marplate is for developers (or anyone else) who dislike using tools like PowerPoint for presentations and just want to stick with the tools they already know and love.  It's a markdown-based slide template optimized for use with VS Code (or the editor of your choice… hullo VI). Built on the [Marp Presentation Ecosystem](https://marp.app/) and the [.NET Core Template Engine](https://github.com/dotnet/templating/), Marplate is a minimalist solution that simplifies formatting and layout, so you can focus on creating beautiful presentations. 
 
 ![](images/marplate.gif)
 
@@ -39,7 +39,12 @@ This example demonstrates how to insert a slide containing a heading, descriptio
    ---
    ### PURRfet Code
    *This code demonstrates printing a kitty*
-		```csharp
-		   Console.Out.WriteLine("=^.^=");
-    ```
+   ```csharp
+   Console.Out.WriteLine("=^.^=");
+   ```
 ```
+This slide template is accessible in VS Code by typing `code` in the editor and selecting `Code Slide` 
+
+## Creating PDF, PowerPoint or HTML Slide Decks from VS Code
+The Marp extension in VS Code allows you to export Marplate slides as PDF, Powerpoint or HTML slide decks.
+From the Command Pallete choose `Marp: Export Slide Deck...` and choose the desired format.
