@@ -32,4 +32,14 @@ The primary, secondary and tertiary colors can be configured from the command li
 ```console
    dotnet new marplate --name mypresentation -p #000000 -s #555555 -te #CCCCCC
 ```
+## Usage Example: Slide with Code Example
+This example demonstrates how to insert a slide containing a heading, description and code example:
 
+```console
+   ---
+   ### PURRfet Code
+   *This code demonstrates printing a kitty*
+		```csharp
+		   Console.Out.WriteLine("=^.^=");
+    ```
+```
