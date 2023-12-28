@@ -32,6 +32,18 @@ The primary, secondary and tertiary colors can be configured from the command li
 ```console
    dotnet new marplate --name mypresentation -p #000000 -s #555555 -te #CCCCCC
 ```
+
+## VS Code Slide Templates
+Several templates are provided for quickly adding slides to a presentation:
+
+|  Name  | Command   | Result    |   
+|--------|-----------|-----------|
+| Basic Slide | `slide` |  Inserts a slide with heading and two columns, text on the left and an image on the right. |
+| Title Slide | `title` |  Inserts a title slide with title text to the left and a main image to the right. |
+| Code Slide | `code` | Inserts a slide with a heading, description and a section of code. |
+| Blank Slide | `blank` | Inserts a blank slide. |
+
+
 ## Usage Example: Basic Slide
 This example demonstrates how to insert a two column slide containing a heading, supporting text and an image.
 
