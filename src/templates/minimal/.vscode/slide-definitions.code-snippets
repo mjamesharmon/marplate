@@ -20,6 +20,14 @@
 		],
 		"description": "Basic slide with heading, text and 50/50 image"
 	},
+        "Blank Slide" : {
+		"prefix" : "blank",
+		"scope": "markdown",
+		"body": [
+			"---"	
+		],
+		"description": "Inserts an empty slide"
+	},
 	"Code Slide" : {
 		"prefix" : "code",
 		"scope": "markdown",
